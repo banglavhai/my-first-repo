@@ -1,0 +1,84 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.fnam{
+    color: orange;
+}
+img{
+    width: 80%;
+    margin-left: 40px;
+}
+.contant{
+    display: flex;
+    margin-bottom: 100px;
+}
+.helf-width{
+    width: 50%;
+    margin: 2%px;
+    padding: 40px;  
+}
+.button{
+    text-decoration: none;
+    background-image:linear-gradient(orange,tomato) ;
+    margin: 5px;
+    padding: 5px 40px;
+    font-weight: 700;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 7%;
+    transform: 0.4s;
+}
+.button:hover{
+    content: "";
+    color:black;
+    background: gray;
+}
+.top{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.hero{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.box-model{
+    width: 40%;
+    margin-left: 50px;
+    padding: 20px;
+    box-shadow: 10px 20px 40px gray;
+    border-radius: 2%;
+}
+.third{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#pro{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon,gray,tomato);
+    border-image-slice: 1;
+}
+#student{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,gray,cyan);
+    border-image-slice: 1;
+}
+#student:hover{
+    background-color: #999999;
+    color: black;
+}
+#pro:hover{
+    color: black;
+    background-color: gray;
+}
+footer p{
+    text-align: center;
+}
